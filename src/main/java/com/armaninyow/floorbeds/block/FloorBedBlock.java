@@ -126,6 +126,21 @@ public class FloorBedBlock extends BedBlock {
 		return speedMultiplier / 0.5f / 30.0f;
 	}
 
+
+	// -------------------------------------------------------------------------
+	// Drop suppression: no drops in creative mode
+	// -------------------------------------------------------------------------
+	@Override
+	public BlockState onBreak(World world, BlockPos pos, BlockState state, PlayerEntity player) {
+		if (!world.isClient() && !player.isCreative()) {
+			// Only drop from foot part, same as loot table condition
+			if (state.get(PART) == BedPart.FOOT) {
+				Block.dropStack(world, pos, new ItemStack(state.getBlock()));
+			}
+		}
+		return super.onBreak(world, pos, state, player);
+	}
+
 	// -------------------------------------------------------------------------
 	// Issue 4: clicking the foot redirects to the head (same as vanilla)
 	// The actual head/foot visual swap is fixed in the blockstate JSON.
@@ -145,19 +160,8 @@ public class FloorBedBlock extends BedBlock {
 			}
 		}
 
-		// Explode in unsupported dimensions (Nether / End)
+		// Block sleeping in Nether/End — do nothing
 		if (!BedBlock.isBedWorking(world)) {
-			world.removeBlock(pos, false);
-			BlockPos otherPos = pos.offset(state.get(FACING).getOpposite());
-			if (world.getBlockState(otherPos).getBlock() instanceof FloorBedBlock) {
-				world.removeBlock(otherPos, false);
-			}
-			world.createExplosion(
-				null, null, null,
-				pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
-				5.0f, true,
-				World.ExplosionSourceType.BLOCK
-			);
 			return ActionResult.SUCCESS;
 		}
 
