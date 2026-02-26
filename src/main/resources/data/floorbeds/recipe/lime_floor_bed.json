@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "floor_bed",
+	"pattern": [
+		"WWW"
+	],
+	"key": {
+		"W": "minecraft:lime_wool"
+	},
+	"result": {
+		"id": "floorbeds:lime_floor_bed",
+		"count": 1
+	}
+}

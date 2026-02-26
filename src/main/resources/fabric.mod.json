@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "floorbeds",
+	"version": "${version}",
+	"name": "Floor Beds",
+	"description": "Adds flat, floor-level bed variants that skip the night without overriding your spawn point.",
+	"authors": [
+		"Armaninyow"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/flood-beds",
+		"sources": "https://github.com/armaninyow/Floor-Beds",
+		"issues": "https://github.com/armaninyow/Floor-Beds/discussions/categories/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/floorbeds/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.armaninyow.floorbeds.FloorBeds"
+		]
+	},
+	"mixins": [
+		"floorbeds.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
