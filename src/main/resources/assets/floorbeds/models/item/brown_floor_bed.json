@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:item/template_bed",
+	"textures": {
+		"0": "floorbeds:block/brown_floor_bed",
+		"particle": "floorbeds:block/brown_floor_bed"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 4, 16],
+			"faces": {
+				"north": {"uv": [8, 4, 12, 5], "texture": "#0"},
+				"east": {"uv": [4, 8, 8, 9], "texture": "#0"},
+				"south": {"uv": [12, 6, 8, 5], "texture": "#0"},
+				"west": {"uv": [8, 3, 12, 4], "texture": "#0"},
+				"up": {"uv": [8, 4, 4, 0], "texture": "#0"},
+				"down": {"uv": [8, 8, 4, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 16],
+			"to": [16, 4, 32],
+			"faces": {
+				"north": {"uv": [12, 2, 8, 1], "texture": "#0"},
+				"east": {"uv": [8, 0, 12, 1], "texture": "#0"},
+				"south": {"uv": [8, 2, 12, 3], "texture": "#0"},
+				"west": {"uv": [0, 8, 4, 9], "texture": "#0"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#0"},
+				"down": {"uv": [4, 8, 0, 4], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 3, -2],
+			"scale": [0.25, 0.25, 0.25]
+		}
+	}
+}

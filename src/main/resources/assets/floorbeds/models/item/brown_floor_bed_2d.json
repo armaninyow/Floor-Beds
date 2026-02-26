@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "floorbeds:item/brown_floor_bed"
+	}
+}
