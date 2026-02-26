@@ -1,0 +1,47 @@
+{
+	"block.floor_bed.break": {
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [
+			{"name": "floorbeds:block/floor_bed/cloth_dig1", "volume": 1.0, "pitch": 0.8},
+			{"name": "floorbeds:block/floor_bed/cloth_dig2", "volume": 1.0, "pitch": 0.8},
+			{"name": "floorbeds:block/floor_bed/cloth_dig3", "volume": 1.0, "pitch": 0.8},
+			{"name": "floorbeds:block/floor_bed/cloth_dig4", "volume": 1.0, "pitch": 0.8}
+		]
+	},
+	"block.floor_bed.place": {
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [
+			{"name": "floorbeds:block/floor_bed/cloth_dig1", "volume": 1.0, "pitch": 0.8},
+			{"name": "floorbeds:block/floor_bed/cloth_dig2", "volume": 1.0, "pitch": 0.8},
+			{"name": "floorbeds:block/floor_bed/cloth_dig3", "volume": 1.0, "pitch": 0.8},
+			{"name": "floorbeds:block/floor_bed/cloth_dig4", "volume": 1.0, "pitch": 0.8}
+		]
+	},
+	"block.floor_bed.hit": {
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [
+			{"name": "floorbeds:block/floor_bed/cloth_dig1", "volume": 0.25, "pitch": 0.5},
+			{"name": "floorbeds:block/floor_bed/cloth_dig2", "volume": 0.25, "pitch": 0.5},
+			{"name": "floorbeds:block/floor_bed/cloth_dig3", "volume": 0.25, "pitch": 0.5},
+			{"name": "floorbeds:block/floor_bed/cloth_dig4", "volume": 0.25, "pitch": 0.5}
+		]
+	},
+	"block.floor_bed.fall": {
+		"subtitle": "subtitles.block.generic.fall",
+		"sounds": [
+			{"name": "floorbeds:block/floor_bed/cloth_dig1", "volume": 0.5, "pitch": 0.75},
+			{"name": "floorbeds:block/floor_bed/cloth_dig2", "volume": 0.5, "pitch": 0.75},
+			{"name": "floorbeds:block/floor_bed/cloth_dig3", "volume": 0.5, "pitch": 0.75},
+			{"name": "floorbeds:block/floor_bed/cloth_dig4", "volume": 0.5, "pitch": 0.75}
+		]
+	},
+	"block.floor_bed.step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [
+			{"name": "floorbeds:block/floor_bed/cloth_dig1", "volume": 0.15, "pitch": 1.0},
+			{"name": "floorbeds:block/floor_bed/cloth_dig2", "volume": 0.15, "pitch": 1.0},
+			{"name": "floorbeds:block/floor_bed/cloth_dig3", "volume": 0.15, "pitch": 1.0},
+			{"name": "floorbeds:block/floor_bed/cloth_dig4", "volume": 0.15, "pitch": 1.0}
+		]
+	}
+}
