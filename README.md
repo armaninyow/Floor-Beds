@@ -16,7 +16,7 @@ A simple mod that adds flat, floor-level beds in all colors so you can sleep thr
 - **16 Colors**: One craftable variant per wool color.
 - **Flat Design**: 16×4×16, no bed frame or legs.
 - **No Spawn Override**: Skips the night without changing your spawn point.
-- **Explodes in Nether/End**: Same behavior as vanilla beds.
+- **No Explosion in Nether/End**: Unlike vanilla beds.
 - **No Explosion Drop**: Destroyed by explosions without dropping the item.
 - **Wool Sounds**: Soft sounds for all interactions.
 - **Custom Breaking Speed**: Faster with shears; supports Efficiency and Haste.
