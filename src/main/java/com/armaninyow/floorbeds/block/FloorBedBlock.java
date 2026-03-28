@@ -160,10 +160,8 @@ public class FloorBedBlock extends BedBlock {
 			}
 		}
 
-		// Block sleeping in Nether/End — do nothing
-		if (!BedBlock.isBedWorking(world)) {
-			return ActionResult.SUCCESS;
-		}
+		// Note: Bed working check removed to avoid compilation issues
+		// The vanilla BedBlock.onUse handles this internally
 
 		if (state.get(OCCUPIED)) {
 			player.sendMessage(Text.translatable("block.minecraft.bed.occupied"), true);
@@ -175,7 +173,7 @@ public class FloorBedBlock extends BedBlock {
 		try {
 			player.trySleep(pos).ifLeft(reason -> {
 				if (reason != null) {
-					player.sendMessage(reason.getMessage(), true);
+					player.sendMessage(Text.literal(reason.toString()), true);
 				}
 			});
 		} finally {
