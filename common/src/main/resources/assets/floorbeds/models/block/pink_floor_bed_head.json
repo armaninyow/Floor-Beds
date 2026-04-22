@@ -1,0 +1,20 @@
+{
+	"textures": {
+		"0": "floorbeds:block/pink_floor_bed",
+		"particle": "floorbeds:block/pink_floor_bed"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 4, 16],
+			"faces": {
+				"north": {"uv": [8, 2, 12, 3], "texture": "#0"},
+				"east": {"uv": [0, 8, 4, 9], "texture": "#0"},
+				"south": {"uv": [8, 1, 12, 2], "texture": "#0"},
+				"west": {"uv": [8, 0, 12, 1], "texture": "#0"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"down": {"uv": [0, 4, 4, 8], "texture": "#0"}
+			}
+		}
+	]
+}
