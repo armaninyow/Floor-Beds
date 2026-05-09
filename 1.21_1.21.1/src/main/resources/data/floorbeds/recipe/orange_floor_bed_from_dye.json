@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "floor_bed_dye",
+	"ingredients": [
+		{
+			"tag": "floorbeds:floor_beds"
+		},
+		{
+			"item": "minecraft:orange_dye"
+		}
+	],
+	"result": {
+		"id": "floorbeds:orange_floor_bed",
+		"count": 1
+	}
+}

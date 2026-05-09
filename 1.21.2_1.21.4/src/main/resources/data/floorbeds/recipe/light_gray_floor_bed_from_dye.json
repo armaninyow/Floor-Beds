@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "floor_bed_dye",
+	"ingredients": [
+		"#floorbeds:floor_beds",
+		"minecraft:light_gray_dye"
+	],
+	"result": {
+		"id": "floorbeds:light_gray_floor_bed",
+		"count": 1
+	}
+}
