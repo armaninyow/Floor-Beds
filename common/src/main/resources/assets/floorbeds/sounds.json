@@ -1,0 +1,42 @@
+{
+  "block.floor_bed.break": {
+    "sounds": [
+      {
+        "name": "block.wool.break",
+        "type": "event"
+      }
+    ]
+  },
+  "block.floor_bed.place": {
+    "sounds": [
+      {
+        "name": "block.wool.place",
+        "type": "event"
+      }
+    ]
+  },
+  "block.floor_bed.hit": {
+    "sounds": [
+      {
+        "name": "block.wool.hit",
+        "type": "event"
+      }
+    ]
+  },
+  "block.floor_bed.fall": {
+    "sounds": [
+      {
+        "name": "block.wool.fall",
+        "type": "event"
+      }
+    ]
+  },
+  "block.floor_bed.step": {
+    "sounds": [
+      {
+        "name": "block.wool.step",
+        "type": "event"
+      }
+    ]
+  }
+}
