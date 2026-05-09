@@ -1,0 +1,33 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_gray_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:gray_wool"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "floorbeds:gray_floor_bed"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_gray_wool",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"floorbeds:gray_floor_bed"
+		]
+	},
+	"sends_telemetry_event": false	
+}
