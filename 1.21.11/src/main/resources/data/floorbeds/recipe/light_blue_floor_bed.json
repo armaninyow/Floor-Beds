@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "floor_bed",
+	"pattern": [
+		"WWW"
+	],
+	"key": {
+		"W": "minecraft:light_blue_wool"
+	},
+	"result": {
+		"id": "floorbeds:light_blue_floor_bed",
+		"count": 1
+	}
+}
