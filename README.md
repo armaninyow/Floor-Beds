@@ -19,6 +19,11 @@ If you encounter bugs or wish to contribute:
 <details>
   <summary></summary>
    
+### 3.1.0—1.21.x
+* Added multi-version support covering Minecraft 1.21 through 1.21.1
+* Split 1.21.5-1.21.11 into two separate version ranges to account for API differences across minor versions
+* Fixed a crash on 1.21.5-1.21.10 caused by a compatibility issue with 1.21.11
+* Fixed missing item textures and invisible placed blocks in 1.21.2-1.21.3
 ### 3.0.0—1.21.2-1.21.11
 * Added multi-version support covering Minecraft 1.21.2 through 1.21.11
 * Fixed floor beds not dropping an item after sleeping in them
