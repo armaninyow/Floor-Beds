@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "floor_bed",
+	"pattern": [
+		"WWW"
+	],
+	"key": {
+		"W": "minecraft:magenta_wool"
+	},
+	"result": {
+		"id": "floorbeds:magenta_floor_bed",
+		"count": 1
+	}
+}
