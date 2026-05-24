@@ -2,10 +2,10 @@ package com.armaninyow.floorbeds.block;
 
 import com.armaninyow.floorbeds.FloorBeds;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
-import net.minecraft.block.entity.BlockEntityType;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 
 public class FloorBedBlockEntityType {
 
@@ -13,8 +13,8 @@ public class FloorBedBlockEntityType {
 
 	public static void initialize() {
 		FLOOR_BED = Registry.register(
-			Registries.BLOCK_ENTITY_TYPE,
-			Identifier.of(FloorBeds.MOD_ID, "floor_bed"),
+			BuiltInRegistries.BLOCK_ENTITY_TYPE,
+			Identifier.fromNamespaceAndPath(FloorBeds.MOD_ID, "floor_bed"),
 			FabricBlockEntityTypeBuilder.create(
 				FloorBedBlockEntity::new,
 				FloorBedsBlocks.WHITE_FLOOR_BED,
