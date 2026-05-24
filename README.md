@@ -19,6 +19,8 @@ If you encounter bugs or wish to contribute:
 <details>
   <summary></summary>
    
+### 4.0.0—26.x
+* Added support for Minecraft 26.1, 26.1.1, and 26.1.2
 ### 3.1.0—1.21.x
 * Added multi-version support covering Minecraft 1.21 through 1.21.1
 * Split 1.21.5-1.21.11 into two separate version ranges to account for API differences across minor versions
