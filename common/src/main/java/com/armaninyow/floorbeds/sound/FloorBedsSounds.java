@@ -31,6 +31,5 @@ public class FloorBedsSounds {
 	}
 
 	public static void initialize() {
-		// Triggers static field initialization
 	}
 }

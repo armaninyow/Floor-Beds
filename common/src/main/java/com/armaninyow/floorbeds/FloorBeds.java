@@ -15,8 +15,6 @@ public class FloorBeds implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// Sounds must be registered before blocks, because FloorBedsBlocks
-		// references FloorBedsSounds.FLOOR_BED_SOUND_GROUP during block creation.
 		FloorBedsSounds.initialize();
 		FloorBedsBlocks.initialize();
 		FloorBedBlockEntityType.initialize();
